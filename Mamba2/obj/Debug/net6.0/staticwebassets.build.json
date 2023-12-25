@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "yHyUNuRCJamCisUZTOWETl7fI5W98JbOGaFY1CKYXdM=",
+  "Source": "Mamba2",
+  "BasePath": "_content/Mamba2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Mamba2\\wwwroot",
+      "Source": "Mamba2",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\",
+      "BasePath": "_content/Mamba2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg",
+      "SourceId": "Mamba2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\",
+      "BasePath": "_content/Mamba2",
+      "RelativePath": "uploads/Employee/5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png",
+      "SourceId": "Mamba2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\",
+      "BasePath": "_content/Mamba2",
+      "RelativePath": "uploads/Employee/6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png"
+    }
+  ]
+}
