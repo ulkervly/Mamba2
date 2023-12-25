@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yHyUNuRCJamCisUZTOWETl7fI5W98JbOGaFY1CKYXdM=",
+  "Hash": "PLie90vdlZtrti5J7P7NgttPthegEcggALSHs8q6UFg=",
   "Source": "Mamba2",
   "BasePath": "_content/Mamba2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Mamba2\\wwwroot",
       "Source": "Mamba2",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\",
       "BasePath": "_content/Mamba2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg",
+      "Identity": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg",
       "SourceId": "Mamba2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\",
       "BasePath": "_content/Mamba2",
       "RelativePath": "uploads/Employee/5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg"
     },
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png",
+      "Identity": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png",
       "SourceId": "Mamba2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\",
       "BasePath": "_content/Mamba2",
       "RelativePath": "uploads/Employee/6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png",
       "AssetKind": "All",
@@ -49,6 +49,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\7d859fe9-73ff-404e-a232-65325a22dc2fEkran görüntüsü (6).png",
+      "SourceId": "Mamba2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\",
+      "BasePath": "_content/Mamba2",
+      "RelativePath": "uploads/Employee/7d859fe9-73ff-404e-a232-65325a22dc2fEkran görüntüsü (6).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Employee\\7d859fe9-73ff-404e-a232-65325a22dc2fEkran görüntüsü (6).png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\af424eff-55c1-433a-a218-a0197f34a7a9Ekran görüntüsü (6).png",
+      "SourceId": "Mamba2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\",
+      "BasePath": "_content/Mamba2",
+      "RelativePath": "uploads/Employee/af424eff-55c1-433a-a218-a0197f34a7a9Ekran görüntüsü (6).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Employee\\af424eff-55c1-433a-a218-a0197f34a7a9Ekran görüntüsü (6).png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\f9c90696-b6a6-4748-b8fd-34c41793cb6cbest-seller-bg.jpg",
+      "SourceId": "Mamba2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\",
+      "BasePath": "_content/Mamba2",
+      "RelativePath": "uploads/Employee/f9c90696-b6a6-4748-b8fd-34c41793cb6cbest-seller-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Employee\\f9c90696-b6a6-4748-b8fd-34c41793cb6cbest-seller-bg.jpg"
     }
   ]
 }

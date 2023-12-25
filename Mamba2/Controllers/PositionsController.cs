@@ -22,6 +22,7 @@ namespace Mamba2.Controllers
             _mapper = mapper;
         }
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(PositionGetDto), 200)]
         public IActionResult Get(int id)
         {
             var p = _context.Positions.FirstOrDefault(x => x.Id == id);
@@ -34,6 +35,8 @@ namespace Mamba2.Controllers
 
         }
         [HttpPost]
+        [ProducesResponseType(typeof(PositionCreateDto), 201)]
+        [ProducesResponseType(typeof(PositionCreateDto), 400)]
         public IActionResult Create( PositionCreateDto dto)
         {
             var p = _mapper.Map<Position>(dto);
@@ -50,6 +53,9 @@ namespace Mamba2.Controllers
 
         }
         [HttpPut("{id}")]
+        [ProducesResponseType(typeof(PositionUpdateDto), 204)]
+        [ProducesResponseType(typeof(PositionUpdateDto), 400)]
+        [ProducesResponseType(typeof(PositionUpdateDto), 404)]
         public IActionResult Update(int id, PositionUpdateDto dto)
         {
             var p = _context.Positions.FirstOrDefault(x => x.Id == id);

@@ -23,6 +23,16 @@ namespace Mamba2.DTOs
                .NotNull().WithMessage("Null ola bilmez!")
                .MaximumLength(50).WithMessage("Max 50 ola biler!")
                .MinimumLength(3).WithMessage("Min 3 ola biler!");
+            RuleFor(x => x.Desc)
+              .NotEmpty().WithMessage("Bos ola bilmez!")
+             .NotNull().WithMessage("Null ola bilmez!")
+             .MaximumLength(150).WithMessage("Max 150 ola biler!")
+             .MinimumLength(3).WithMessage("Min 3 ola biler!");
+            RuleFor(x => x.MediaLink)
+               .NotEmpty().WithMessage("Bos ola bilmez!")
+              .NotNull().WithMessage("Null ola bilmez!")
+              .MaximumLength(250).WithMessage("Max 250 ola biler!")
+              .MinimumLength(3).WithMessage("Min 3 ola biler!");
 
         }
     }

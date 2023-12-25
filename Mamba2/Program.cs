@@ -15,7 +15,7 @@ builder.Services.AddControllers().AddFluentValidation(opt =>
 });
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
-    opt.UseSqlServer("Server=DESKTOP-1TG370G;Database=MambaFile;Trusted_Connection=True");
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("default2"));
 });
 builder.Services.AddAutoMapper(typeof(MapProfile));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

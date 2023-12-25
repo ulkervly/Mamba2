@@ -1,12 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg",
+      "Id": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg",
       "PackagePath": "staticwebassets\\uploads\\Employee\\5c598293-53db-42c3-bf7e-e700aa7fc4a9promo-banner-with-text-big.jpg"
     },
     {
-      "Id": "C:\\Users\\II novbe\\Desktop\\Exam\\DateTime\\Practice\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png",
+      "Id": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png",
       "PackagePath": "staticwebassets\\uploads\\Employee\\6ed59092-e4ea-44bf-b1ce-0a8950a18cd8home-slider-2-ai.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\7d859fe9-73ff-404e-a232-65325a22dc2fEkran görüntüsü (6).png",
+      "PackagePath": "staticwebassets\\uploads\\Employee\\7d859fe9-73ff-404e-a232-65325a22dc2fEkran görüntüsü (6).png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\af424eff-55c1-433a-a218-a0197f34a7a9Ekran görüntüsü (6).png",
+      "PackagePath": "staticwebassets\\uploads\\Employee\\af424eff-55c1-433a-a218-a0197f34a7a9Ekran görüntüsü (6).png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Mamba2\\Mamba2\\wwwroot\\uploads\\Employee\\f9c90696-b6a6-4748-b8fd-34c41793cb6cbest-seller-bg.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Employee\\f9c90696-b6a6-4748-b8fd-34c41793cb6cbest-seller-bg.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Mamba2.Microsoft.AspNetCore.StaticWebAssets.props",

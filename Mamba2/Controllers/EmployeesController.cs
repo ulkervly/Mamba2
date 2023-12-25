@@ -23,6 +23,7 @@ namespace Mamba2.Controllers
             _mapper = mapper;
         }
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(EmployeeGetDto), 200)]
         public IActionResult Get(int id)
         {
             var emp=_context.Employees.FirstOrDefault(x => x.Id == id);
@@ -34,7 +35,10 @@ namespace Mamba2.Controllers
             return Ok();
 
         }
+
         [HttpPost]
+        [ProducesResponseType(typeof(EmployeeCreateDto), 201)] 
+        [ProducesResponseType(typeof(EmployeeCreateDto), 400)]
         public IActionResult Create([FromForm] EmployeeCreateDto dto)
         {
             var emp=_mapper.Map<Employee>(dto);
@@ -80,6 +84,9 @@ namespace Mamba2.Controllers
             
         }
         [HttpPut("{id}")]
+        [ProducesResponseType(typeof(EmployeeUpdateDto), 204)]
+        [ProducesResponseType(typeof(EmployeeUpdateDto), 400)]
+        [ProducesResponseType(typeof(EmployeeUpdateDto), 404)]
         public IActionResult Update([FromForm]int id,EmployeeUpdateDto dto)
         {
             var emp=_context.Employees.FirstOrDefault(x=>x.Id == id);
@@ -88,6 +95,36 @@ namespace Mamba2.Controllers
                 return NotFound();
 
             }
+            bool check = true;
+            if (dto.PositionIds != null)
+            {
+                foreach (var positionId in dto.PositionIds)
+                {
+                    check = true;
+                    break;
+
+                }
+
+            }
+            if (dto.ImageFile != null)
+            {
+                if (dto.ImageFile.ContentType != "image/png" && dto.ImageFile.ContentType != "image/jpeg")
+                {
+                    return BadRequest();
+                }
+                if (dto.ImageFile.Length > 1048576)
+                {
+                    return BadRequest();
+                }
+            }
+            else
+            {
+                return BadRequest();
+            }
+            string folder = "uploads/Employee";
+
+
+            emp.EmployeeImageUrl = Helper.SaveFile(_environment.WebRootPath, "uploads/Employee", dto.ImageFile);
             emp = _mapper.Map(dto, emp);
             emp.UpdatedDate= DateTime.UtcNow.AddHours(4);   
             _context.Employees.Add(emp);
@@ -95,6 +132,7 @@ namespace Mamba2.Controllers
             return NoContent();
         }
         [HttpDelete("{id}")]
+      
         public IActionResult Delete(int id)
         {
             var emp = _context.Employees.Find(id);
