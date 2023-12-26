@@ -9,6 +9,8 @@ namespace Mamba2.Entities
         public string Desc { get; set; }
         public string MediaLink {  get; set; }
         public string? EmployeeImageUrl { get; set; }
+        public int? CatagoryId { get; set; } 
+        public Catagory Catagory { get; set; }
        
         public List<EmployeePosition> EmployeePositions { get; set; }
     }

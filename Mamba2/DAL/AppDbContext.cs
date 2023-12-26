@@ -20,5 +20,27 @@ namespace Mamba2.DAL
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(EmployeeConfiguration).Assembly);
             base.OnModelCreating(modelBuilder);
         }
+
+        public override int SaveChanges()
+        {
+            var datas=ChangeTracker.Entries<BaseEntity>();
+            foreach (var item in datas)
+            {
+                var entity=item.Entity;
+                switch (item.State)
+                {
+                   
+                    case EntityState.Modified:
+                        entity.UpdatedDate = DateTime.Now;
+                        break;
+                    case EntityState.Added:
+                        entity.AddedDate = DateTime.Now;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            return base.SaveChanges();
+        }
     }
 }

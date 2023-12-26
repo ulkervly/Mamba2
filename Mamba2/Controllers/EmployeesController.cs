@@ -35,6 +35,35 @@ namespace Mamba2.Controllers
             return Ok();
 
         }
+        public IActionResult GetAll(string? search,int? catagoryId,int? order)
+        {
+            var employees=_context.Employees.AsQueryable(); /*Select from*/
+            if (search!=null)
+            {
+                employees = employees.Where(p => p.FullName.ToLower().Contains(search.Trim().ToLower()) || p.Desc.ToLower().Contains(search.Trim().ToLower()));
+
+            }
+            if (catagoryId!=null)
+            {
+                employees = employees.Where(x => x.CatagoryId==catagoryId);
+            }
+            if (order!=null)
+            {
+                switch (order)
+                {
+                    case 0:
+                        employees=employees.OrderByDescending(x=>x.Position); break;
+                    case 1:
+                        employees = employees.OrderByDescending(x => x.FullName); break;
+      
+                    default:
+                        break;
+                }
+
+            }
+            var dto = _mapper.Map<EmployeeGetDto>(employees);
+            return Ok();
+        }
 
         [HttpPost]
         [ProducesResponseType(typeof(EmployeeCreateDto), 201)] 
