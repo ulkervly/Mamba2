@@ -151,6 +151,9 @@
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "Mamba.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.25"
+        },
         "runtime": {
           "Mamba.Core.dll": {}
         }

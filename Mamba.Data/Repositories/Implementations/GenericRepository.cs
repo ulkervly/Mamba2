@@ -1,4 +1,6 @@
-﻿using Mamba2.DAL;
+﻿using Mamba.Core.Repositories.İnterfaces;
+using Mamba2.DAL;
+using Mamba2.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Mamba.Data.Repositories.Implementations
 {
-    public class GenericRepository
+    public class GenericRepository<TEntity>: IGenericRepository<TEntity> where TEntity : BaseEntity, new()
     {
         private readonly AppDbContext _context;
 
