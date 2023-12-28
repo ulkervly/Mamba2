@@ -146,3 +146,9 @@ C:\Users\hp\Desktop\Mamba2\Mamba2\obj\Debug\net6.0\refint\Mamba2.dll
 C:\Users\hp\Desktop\Mamba2\Mamba2\obj\Debug\net6.0\Mamba2.pdb
 C:\Users\hp\Desktop\Mamba2\Mamba2\obj\Debug\net6.0\Mamba2.genruntimeconfig.cache
 C:\Users\hp\Desktop\Mamba2\Mamba2\obj\Debug\net6.0\ref\Mamba2.dll
+C:\Users\hp\Desktop\Mamba2\Mamba2\bin\Debug\net6.0\Mamba.Business.dll
+C:\Users\hp\Desktop\Mamba2\Mamba2\bin\Debug\net6.0\Mamba.Core.dll
+C:\Users\hp\Desktop\Mamba2\Mamba2\bin\Debug\net6.0\Mamba.Data.dll
+C:\Users\hp\Desktop\Mamba2\Mamba2\bin\Debug\net6.0\Mamba.Business.pdb
+C:\Users\hp\Desktop\Mamba2\Mamba2\bin\Debug\net6.0\Mamba.Core.pdb
+C:\Users\hp\Desktop\Mamba2\Mamba2\bin\Debug\net6.0\Mamba.Data.pdb

@@ -1,4 +1,8 @@
 using FluentValidation.AspNetCore;
+using Mamba.Business.Services.Implementations;
+using Mamba.Business.Services.Interfaces;
+using Mamba.Core.Repositories.?nterfaces;
+using Mamba.Data.Repositories.Implementations;
 using Mamba2.DAL;
 using Mamba2.DTOs;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +22,13 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("default2"));
 });
 builder.Services.AddAutoMapper(typeof(MapProfile));
+builder.Services.AddScoped<IEmployeePositionRepository, EmployeeRepository>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+
+builder.Services.AddScoped<IEmployeePositionRepository, EmployeePositionRepository>();
+
+builder.Services.AddScoped<IPositionrepository, PositionRepository>();
+builder.Services.AddScoped<IPositionService, PositionService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

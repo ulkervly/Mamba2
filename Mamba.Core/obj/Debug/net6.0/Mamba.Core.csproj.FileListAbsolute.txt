@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\bin\Debug\net6.0\Mamba.Core.deps.json
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\bin\Debug\net6.0\Mamba.Core.dll
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\bin\Debug\net6.0\Mamba.Core.pdb
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\Mamba.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\Mamba.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\Mamba.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\Mamba.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\Mamba.Core.dll
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\refint\Mamba.Core.dll
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\Mamba.Core.pdb
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\ref\Mamba.Core.dll
+C:\Users\hp\Desktop\Mamba2\Mamba.Core\obj\Debug\net6.0\Mamba.Core.csproj.AssemblyReference.cache
